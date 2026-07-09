@@ -831,3 +831,62 @@ body{
     }
 
 }
+/* Responsive */
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    width:100%;
+    overflow-x:hidden;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+section,
+.container,
+.card,
+.quiz,
+.message-page{
+    width:min(95%,900px);
+    margin:auto;
+}
+
+@media (max-width:768px){
+
+    h1{
+        font-size:32px !important;
+    }
+
+    h2{
+        font-size:24px !important;
+    }
+
+    p{
+        font-size:17px !important;
+    }
+
+    button{
+        width:100%;
+        font-size:18px;
+    }
+
+    .card,
+    .quiz,
+    .message-page{
+        padding:20px;
+    }
+
+}
